@@ -36,8 +36,16 @@
   <!-- END INSTRUCTIONS -->
 
   <form onSubmit="alert('got it')">
-    <input type="text" name="name" placeholder="Name" />
-    <input type="submit" value="Submit" />
+    <input type="text" name="name" placeholder="Name" required/>
+    <input type="text" name="email" placeholder="Email" required/> 
+    <select name="beverage" >
+        <option value="Coffee">Coffee</option>
+        <option value="Tea">Tea</option>
+        <option value="Soda">Soda</option>
+        <option value="Water">Water</option>
+        <option value="Other">Other</option>
+    </select>
+    <input type="submit" value="Signup" />
   </form>
 </body>
 
